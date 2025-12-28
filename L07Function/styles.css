@@ -1,0 +1,79 @@
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 150px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parentdiv{
+  background-color: rgb(26, 26, 28);
+  box-shadow: 10px 10px 30px 8px black;
+  width: 310px;
+  max-height: 435px;
+  border: 1px solid black;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 25px;
+  display: flex;
+}
+input[text]{
+  width: 50px;
+}
+
+.display{
+  display: flex;
+
+  padding: 2px;
+}
+
+.buttons{
+    
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.clearDiv{
+  display: flex;
+  padding: 5px;
+  justify-content: end;
+  justify-content: space-between;
+}
+
+.clrbtn{
+  background-color: rgb(219, 125, 18);
+}
+
+button{
+
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  background-color: rgba(78, 78, 80);
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+
+}
+
+button:active {
+  box-shadow: 0px 1px #ffffff;
+  transform: translateY(4px);
+}
+
+.operator{
+  background-color: rgb(18, 112, 219);
+  font-weight: bold;
+
+}
+
+.equal{
+  background-color: rgb(45, 195, 8);
+  font-weight: bold;
+}
